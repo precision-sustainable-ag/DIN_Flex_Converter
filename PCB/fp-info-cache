@@ -1,4 +1,4 @@
-23370001533184135
+23378576652376339
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67501,12 +67501,33 @@ EE2-5NU
 8
 8
 PSA
+EG1247
+EG1247-1
+Switch
+0
+5
+5
+PSA
 FUSC9830X318N
 
 
 0
 2
 2
+PSA
+LED_155124RV73200
+
+
+0
+3
+3
+PSA
+LED_WL-SMSW_1204_WRE-M
+
+155124GS73200 
+0
+3
+3
 PSA
 MODULE_SC0915
 
@@ -67521,6 +67542,20 @@ OKI-78SR-5&slash_1.5-W36E-C
 0
 3
 3
+PSA
+PHOENIX_1803293
+
+
+0
+4
+4
+PSA
+PHOENIX_2200320
+
+
+0
+4
+4
 PSA
 RES_3540_TEC
 
