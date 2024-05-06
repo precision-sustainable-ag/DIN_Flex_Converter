@@ -1,0 +1,11 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"RV2";"Bourns PV37X";1;"150k";;;
+2;"RV1";"Bourns PV37X";1;"4k";;;
+3;"R2";"R_1206_3216Metric";1;"1k";;;
+4;"PS1";"CONV_I7C4W008A120V-0C3-R";1;"I7C4W008A120V-0C3-R";;;
+5;"F1";"FUSC9830X318N";1;"Fuse";;;
+6;"C9";"C_1210_3225Metric";1;"0.1uF";;;
+7;"C8,C6,C5";"CP_Elec_10x12.6";3;"100uF";;;
+8;"C7";"C_1206_3216Metric";1;"0.1uF";;;
+9;"C4,C3";"C_1210_3225Metric";2;"10uF";;;
+10;"C2,C1";"CP_Elec_10x12.6";2;"270uF";;;

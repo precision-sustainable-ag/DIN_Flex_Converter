@@ -1,4 +1,4 @@
-23366571547806412
+23370001533184135
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67431,6 +67431,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PSA
+3009P1154LF
+3009P-1-154LF-2
+Variable Resistor
+0
+3
+3
+PSA
 3557-10
 
 
@@ -67452,6 +67459,13 @@ PSA
 4
 4
 PSA
+AZ7042RTRG1
+SOT-89_2022
+Integrated Circuit
+0
+4
+4
+PSA
 Big Pads - Relay_SPDT_Schrack-RT1-16A-FormC_RM5mm
 Relay SPST Schrack-RT1 RM5mm 16A 250V AC Form C http://image.schrack.com/datenblaetter/h_rt114012--_de.pdf
 Relay SPST Schrack-RT1 RM5mm 16A 250V AC Relay
@@ -67463,8 +67477,8 @@ Bourns PV37X
 
 
 0
-0
-0
+3
+3
 PSA
 CONV_I7C4W008A120V-0C3-R
 
