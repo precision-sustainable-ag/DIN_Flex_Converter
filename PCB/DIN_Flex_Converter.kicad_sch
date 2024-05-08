@@ -3556,6 +3556,12 @@
 		(uuid "8e7e444e-ed57-4508-8153-c41c54e17ff4")
 	)
 	(junction
+		(at 106.68 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f580f8c-8755-46cd-8b57-735b9119579e")
+	)
+	(junction
 		(at 140.97 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3620,6 +3626,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7313199-1989-4d49-b3f7-411c3b270ffc")
+	)
+	(junction
+		(at 106.68 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c83be0be-cf79-4012-8357-d81966554f58")
 	)
 	(junction
 		(at 96.52 31.75)
@@ -3700,36 +3712,24 @@
 		(uuid "f80bf585-75f0-4967-b72e-f75dd982d1df")
 	)
 	(no_connect
+		(at 124.46 130.81)
+		(uuid "056788c5-c6c4-4baa-a3e7-02ad17b44014")
+	)
+	(no_connect
 		(at 238.76 132.08)
 		(uuid "26a401a9-a947-43d1-9feb-4b47a6a1998f")
 	)
 	(no_connect
-		(at 317.5 99.06)
-		(uuid "3c68856a-6070-4dd6-8448-27c7d0b31165")
+		(at 124.46 142.24)
+		(uuid "3b37b39c-1b87-4e24-8db8-69f387400cdc")
 	)
 	(no_connect
-		(at 317.5 119.38)
-		(uuid "95617ca4-7a0c-4c1a-a619-4fc068818e15")
+		(at 124.46 152.4)
+		(uuid "7fda3c11-73d1-4d77-af28-1935413492ca")
 	)
 	(no_connect
 		(at 238.76 118.11)
 		(uuid "a1b98e0d-4582-4be1-8e33-ffd7628d41bf")
-	)
-	(no_connect
-		(at 302.26 120.65)
-		(uuid "ccc3fb74-ae0c-42c5-9dc1-01332ffceaca")
-	)
-	(no_connect
-		(at 302.26 99.06)
-		(uuid "d17b17cd-8556-4b86-aeee-65affd558c4d")
-	)
-	(no_connect
-		(at 317.5 110.49)
-		(uuid "deae7ca9-a93e-48ec-a3fc-f5748fb64dbb")
-	)
-	(no_connect
-		(at 302.26 110.49)
-		(uuid "e81d00d4-1091-47e7-a170-4876f5f914d8")
 	)
 	(wire
 		(pts
@@ -4263,6 +4263,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 142.24) (xy 109.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426945cc-8911-46a5-ac84-159442040f1b")
+	)
+	(wire
+		(pts
 			(xy 41.91 165.1) (xy 36.83 165.1)
 		)
 		(stroke
@@ -4533,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 142.24) (xy 106.68 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f4fa72-5a41-49ea-ae09-85bdb3cb1ba7")
+	)
+	(wire
+		(pts
 			(xy 50.8 85.09) (xy 46.99 85.09)
 		)
 		(stroke
@@ -4723,6 +4743,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 130.81) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eedafe5-22e3-4e6d-a839-12f51a33c7ee")
+	)
+	(wire
+		(pts
 			(xy 74.93 177.8) (xy 57.15 177.8)
 		)
 		(stroke
@@ -4853,6 +4883,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 130.81) (xy 106.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f167115-886d-4a3c-978e-e2cd2690cf4e")
+	)
+	(wire
+		(pts
 			(xy 226.06 46.99) (xy 240.03 46.99)
 		)
 		(stroke
@@ -4980,6 +5020,16 @@
 			(type default)
 		)
 		(uuid "b4676173-35d0-42d3-b5f2-f33db81a4e29")
+	)
+	(wire
+		(pts
+			(xy 106.68 152.4) (xy 109.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e057c4-b925-4e9e-9788-28f51aee32ca")
 	)
 	(wire
 		(pts
@@ -5150,6 +5200,16 @@
 			(type default)
 		)
 		(uuid "d3b69a41-0d7c-4d60-ae10-2018620b2440")
+	)
+	(wire
+		(pts
+			(xy 106.68 152.4) (xy 106.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f08c92-d909-4ba8-ab3b-33b72eac66eb")
 	)
 	(wire
 		(pts
@@ -5807,7 +5867,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 309.88 120.65 0)
+		(at 116.84 152.4 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5816,7 +5876,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b43a0b2-d8e9-4559-89be-d1f10349c61e")
 		(property "Reference" "U1"
-			(at 309.88 111.76 0)
+			(at 116.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5884,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 309.88 114.3 0)
+			(at 116.84 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5892,7 @@
 			)
 		)
 		(property "Footprint" "PSA:SOIC127P600X175-14N"
-			(at 309.88 120.65 0)
+			(at 116.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5901,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 309.88 120.65 0)
+			(at 116.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5910,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 309.88 120.65 0)
+			(at 116.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,6 +6776,73 @@
 	(symbol
 		(lib_name "GND_14")
 		(lib_id "power:GND")
+		(at 106.68 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2555cca9-a9d8-4349-a9e0-5a6d083e3d76")
+		(property "Reference" "#PWR015"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "366aa661-9145-445d-a8e5-449a1d3a100d")
+		)
+		(instances
+			(project "DIN_Flex_Converter"
+				(path "/e44269d9-3860-4750-a5c6-e30e8b477b13"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_14")
+		(lib_id "power:GND")
 		(at 257.81 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7094,7 +7221,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 309.88 110.49 0)
+		(at 116.84 142.24 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7103,7 +7230,7 @@
 		(fields_autoplaced yes)
 		(uuid "46151c7b-3f6f-4811-bd43-2ada7fc2c561")
 		(property "Reference" "U1"
-			(at 309.88 101.6 0)
+			(at 116.84 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7238,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 309.88 104.14 0)
+			(at 116.84 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7246,7 @@
 			)
 		)
 		(property "Footprint" "PSA:SOIC127P600X175-14N"
-			(at 309.88 110.49 0)
+			(at 116.84 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7255,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 309.88 110.49 0)
+			(at 116.84 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +7264,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 309.88 110.49 0)
+			(at 116.84 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +9093,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 309.88 99.06 0)
+		(at 116.84 130.81 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8975,7 +9102,7 @@
 		(fields_autoplaced yes)
 		(uuid "c04f15de-655e-4c6a-90b8-cbc3a99939d5")
 		(property "Reference" "U1"
-			(at 309.88 90.17 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +9110,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 309.88 92.71 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +9118,7 @@
 			)
 		)
 		(property "Footprint" "PSA:SOIC127P600X175-14N"
-			(at 309.88 99.06 0)
+			(at 116.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,7 +9127,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 309.88 99.06 0)
+			(at 116.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +9136,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 309.88 99.06 0)
+			(at 116.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
