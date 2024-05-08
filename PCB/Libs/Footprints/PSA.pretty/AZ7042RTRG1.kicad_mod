@@ -262,9 +262,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "19400cfc-2d63-4847-b167-5dceda16c78e")
 	)
-	(model "ZXTR2005Z-13.stp"
+	(model "${KIPRJMOD}/Libs/3D/ZXTR2005Z-13.stp"
 		(offset
-			(xyz 0 0.2499999962 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
